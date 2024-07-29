@@ -2,5 +2,5 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'MirrorSoul';
-export const SITE_DESCRIPTION = 'Game Dev Blog';
+export const SITE_DESCRIPTION = 'MirrorSoul is a post-apocalyptic zombie shooter with survival and RPG elements.';
 export const BASE = '/mirrorsoul-blog';
