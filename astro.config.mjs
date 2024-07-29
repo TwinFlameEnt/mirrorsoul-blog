@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://twinflameent.github.io/mirrorsoul-blog/',
-	// base: '/blog',
+	base: '/mirrorsoul-blog',
 	integrations: [mdx(), sitemap()],
 });
