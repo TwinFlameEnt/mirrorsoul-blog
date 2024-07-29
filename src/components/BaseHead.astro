@@ -12,7 +12,7 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = `${BASE}/blog-placeholder-1.jpg` } = Astro.props;
+const { title, description, image = `${BASE}/images/2024-07-29/desert_play.png` } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -22,7 +22,7 @@ const { title, description, image = `${BASE}/blog-placeholder-1.jpg` } = Astro.p
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
-<link rel="preload" href=`${BASE}fonts/atkinson-regular.woff` as="font" type="font/woff" crossorigin />
+<link rel="preload" href=`${BASE}/fonts/atkinson-regular.woff` as="font" type="font/woff" crossorigin />
 <link rel="preload" href=`${BASE}/fonts/atkinson-bold.woff` as="font" type="font/woff" crossorigin />
 
 <!-- Canonical URL -->
