@@ -56,8 +56,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
 	<body>
 		<Header />
-<iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
-		<main>
+	<main>
 			<article>
 				<div class="hero-image">
 					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
@@ -81,6 +80,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				</div>
 			</article>
 		</main>
+<iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+	
 		<Footer />
 	</body>
 </html>
